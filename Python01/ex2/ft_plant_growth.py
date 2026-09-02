@@ -4,7 +4,10 @@ class Plant:
     days: int
 
     def show(self) -> None:
-        print(f"{self.name}: {round(self.height, 1)}cm, {round(self.days, 1)} days old")
+        print(
+            f"{self.name}: {round(self.height, 1)}cm, "
+            f"{round(self.days, 1)} days old"
+        )
 
     def grow(self, gro: float) -> None:
         self.height = self.height + gro
