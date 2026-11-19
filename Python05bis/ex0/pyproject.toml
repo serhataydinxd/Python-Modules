@@ -1,0 +1,17 @@
+[project]
+name = "ex0"
+version = "1.0.0"
+description = "Python 5 bis ex0"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "pandas-stubs"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
